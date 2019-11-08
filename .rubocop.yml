@@ -1,0 +1,62 @@
+require:
+  - rubocop-faker
+  - rubocop-ordered_methods
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-thread_safety
+
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'db/**/*'
+    - 'node_modules/**/*'
+  TargetRubyVersion: 2.6.1
+
+Layout/AlignHash:
+  EnforcedColonStyle: table
+  EnforcedHashRocketStyle: table
+
+Layout/MultilineArrayLineBreaks:
+  Enabled: true
+
+Layout/MultilineAssignmentLayout:
+  Enabled: true
+
+Layout/MultilineHashKeyLineBreaks:
+  Enabled: true
+
+Layout/MultilineMethodArgumentLineBreaks:
+  Enabled: true
+
+Metrics/BlockLength:
+  Exclude:
+    - Guardfile
+    - 'spec/**/*spec.rb'
+
+Metrics/LineLength:
+  Exclude:
+    - Guardfile
+    - config/initializers/backtrace_silencers.rb
+  Max: 110
+
+Metrics/MethodLength:
+  Max: 20
+
+Rails:
+  Enabled: true
+
+Rails/HttpPositionalArguments:
+  Exclude:
+
+Rails/SkipsModelValidations:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Max: 15
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
