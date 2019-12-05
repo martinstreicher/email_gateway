@@ -1,0 +1,56 @@
+<body aria-readonly="false" style="font-family:Arial, Helvetica, sans-serif;font-size: 12px">
+<a href="http://www.yahoo.com">Yahoo</a>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px;">
+    <tbody>
+        <tr>
+            <td>
+            <table border="1" cellpadding="1" cellspacing="1" style="width:500px;">
+                <tbody>
+                    <tr>
+                        <td>First Name</td>
+
+                        <td>Mark</td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td>Stepp</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>123 S Main Street,<br />
+
+                        Bolivar, MO 65613</td>
+                    </tr>
+                    <tr>
+                        <td>Mobile Phone</td>
+                        <td>(417) 298-1173</td>
+                    </tr>
+                    <tr>
+                      <td>Email:  mark@realvolve.com <mailto:mark@realvolve.com></td>
+                    </tr>
+                    <tr>
+                        <td>Email Address</td>
+                        <td>mark@realvolve.com</td>
+                    </tr>
+                    <tr>
+                        <td>Buy/Sell</td>
+                        <td>Both</td>
+                    </tr>
+                    <tr>
+                        <td>Price Range</td>
+                        <td>240000-260000</td>
+                    </tr>
+                    <tr>
+                        <td>Notes</td>
+                        <td>This is just a sample set of fields that could come in via an HTML body which needs to be parsed and could have lots of information in a table.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>&nbsp;</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+</body>

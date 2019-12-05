@@ -11,6 +11,7 @@ gem 'awesome_print'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'coffee-rails', '~> 4.2'
 gem 'draper'
+gem 'httplog'
 gem 'interactor'
 gem 'jbuilder', '~> 2.7'
 gem 'memery', github: 'tycooon/memery', branch: 'master'
